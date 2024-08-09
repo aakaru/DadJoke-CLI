@@ -13,17 +13,29 @@ A simple command-line interface (CLI) tool built with Go and Cobra to fetch and 
 
 - Go (1.16 or later) installed on your system.
 
+### Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/dadjoke-cli.git
+cd dadjoke-cli
+```
+
 ## Build the CLI Tool
 
+```bash
 go build -o dadjoke-cli
-
+```
 This will create an executable named dadjoke-cli in the root of the project.
 
 ## Usage
 
  Get a Random Dad Joke
  Run the following command to fetch and display a random dad joke:
-  ./dadjoke-cli random
+ 
+```bash
+./dadjoke-cli random
+```
+
 ## Contributing
 
 If you want to contribute to this project, please fork the repository and submit a pull request with your changes. Contributions and suggestions are welcome!
